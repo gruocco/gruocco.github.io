@@ -1,26 +1,23 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-
 # Permalinks
-permalink:        pretty
-relative_permalinks: true
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+title:               Grace Ruocco
+tagline:             ''
+description:         ''
+url:                 https://gruocco.github.io
+baseurl:             'https://gruocco.github.io'
+plugins:
+  - jekyll-paginate
+paginate:            5
 
+# About/contact
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
-
-paginate:         5
+  name:              Grace Ruocco
+  url:               https://gruocco.github.io
+  email:             ruoccoj19@gmail.com
 
 # Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
+version:             1.0.0
